@@ -1,4 +1,4 @@
-// src/App.jsx
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Mainlayout from './layouts/Mainlayout';  
 import Home from './pages/Home';  
@@ -6,18 +6,18 @@ import ContactUs from './pages/ContactUs';
 import './index.css'
 import Courses from './pages/Courses';
 import StudentReview from './pages/StudentReview';
-import Interview from './pages/Interview.jsx'
-import Versus from './pages/Versus.jsx';
-import Hostel from './pages/Hostel.jsx';
-import ClassRoom from './pages/ClassRoom.jsx';
-import Profile from './pages/Profile.jsx';
-import ProductionC from './pages/ProductionC.jsx'
-import PythonC from './pages/PythonC.jsx'
-import DotnetC from './pages/DotnetC.jsx'
-import DataEngineer from './pages/DataEngineer.jsx';
-import SuccessStory from './pages/SuccessStory.jsx'
-import DevopsC from './pages/DevopsC.jsx';
-import Question from './pages/Question.jsx';
+import Interview from './pages/Interview'
+import Versus from './pages/Versus';
+import Hostel from './pages/Hostel';
+import ClassRoom from './pages/ClassRoom';
+import Profile from './pages/Profile';
+import ProductionC from './pages/ProductionC'
+import PythonC from './pages/PythonC'
+import DotnetC from './pages/DotnetC'
+import DataEngineer from './pages/DataEngineer';
+import SuccessStory from './pages/SuccessStory'
+import DevopsC from './pages/DevopsC';
+import Question from './pages/Question';
 
 
 const App = () => {
