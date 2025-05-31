@@ -22,7 +22,7 @@ import Question from './pages/Question';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/uniqjobs">
       <Routes>
         <Route path="/" element={<Mainlayout />}> 
           <Route index element={<Home />} /> 

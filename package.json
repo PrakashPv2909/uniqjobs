@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://github.com/PrakashPv2909/uniqjobs.git",
+    "homepage": "https://PrakashPv2909.github.io/uniqjobs" 
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.5",
